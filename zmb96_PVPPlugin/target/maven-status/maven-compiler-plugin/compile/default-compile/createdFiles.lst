@@ -1,0 +1,17 @@
+com\example\skywars\kits\KitManager$Kit.class
+com\example\skywars\kits\KitManager.class
+com\example\skywars\loot\LootManager$LootRarity.class
+com\example\skywars\game\GameState.class
+com\example\skywars\listeners\WorldListener.class
+com\example\skywars\loot\LootManager.class
+com\example\skywars\scoreboard\ScoreboardManager.class
+com\example\skywars\maps\MapManager.class
+com\example\skywars\players\PlayerManager$PlayerState.class
+com\example\skywars\game\GameManager.class
+com\example\skywars\maps\MapManager$GameMap.class
+com\example\skywars\gui\MenuManager.class
+com\example\skywars\listeners\PlayerListener.class
+com\example\skywars\players\PlayerManager.class
+com\example\skywars\utils\BorderManager.class
+com\example\skywars\SkyWars.class
+com\example\skywars\commands\SkyWarsCommand.class

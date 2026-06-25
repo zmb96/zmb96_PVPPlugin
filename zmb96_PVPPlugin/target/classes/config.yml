@@ -1,0 +1,54 @@
+game:
+  min-players: 2
+  max-players: 16
+  countdown: 10
+  border-shrink-interval: 30
+  border-shrink-amount: 2
+  min-border-size: 20
+
+kits:
+  default:
+    name: "默认"
+    description: "基础装备"
+    items:
+      - "WOODEN_SWORD:1"
+      - "BREAD:3"
+  warrior:
+    name: "战士"
+    description: "近战精通"
+    items:
+      - "IRON_SWORD:1"
+      - "IRON_CHESTPLATE:1"
+  archer:
+    name: "弓箭手"
+    description: "远程专家"
+    items:
+      - "BOW:1|infinity:1"
+      - "ARROW:16"
+      - "LEATHER_HELMET:1"
+      - "LEATHER_CHESTPLATE:1"
+  enchanter:
+    name: "附魔师"
+    description: "附魔大师"
+    items:
+      - "ENCHANTING_TABLE:1"
+      - "EXPERIENCE_BOTTLE:10"
+
+loot:
+  common:
+    - "WOODEN_SWORD:1"
+    - "BREAD:3"
+    - "LEATHER:2"
+  rare:
+    - "IRON_SWORD:1"
+    - "IRON_HELMET:1"
+    - "GOLDEN_APPLE:1"
+  epic:
+    - "DIAMOND_SWORD:1"
+    - "DIAMOND_CHESTPLATE:1"
+    - "ENCHANTED_BOOK:1"
+  legendary:
+    - "DIAMOND_SWORD:1|sharpness:3"
+    - "DIAMOND_CHESTPLATE:1|protection:3"
+    - "ENDER_PEARL:2"
+    - "GOLDEN_APPLE:2"

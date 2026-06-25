@@ -1,0 +1,26 @@
+name: zmb96_PVPPlugin
+version: 1.0.0
+main: com.example.skywars.SkyWars
+api-version: 1.21
+author: zmb96
+description: SkyWars Plugin for Minecraft Paper 1.21
+
+commands:
+  sw:
+    description: SkyWars main command
+    usage: /sw <join|leave|kit|create|delete|setspawn|setspectator|setcenter|setborder|addchest|reload|start|stop>
+    permission: skywars.use
+    aliases: [skywars]
+
+permissions:
+  skywars.*:
+    description: All SkyWars permissions
+    children:
+      skywars.use: true
+      skywars.admin: true
+  skywars.use:
+    description: Allow players to use basic SkyWars commands
+    default: true
+  skywars.admin:
+    description: Allow admins to manage SkyWars
+    default: op
